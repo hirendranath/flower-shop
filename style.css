@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
+.special-color{
+    color: #E55473;
+}
 .common-margin{
     padding-left: 130px;
     padding-right: 130px;
@@ -67,14 +70,14 @@
     color: #272727;
     text-align: center;
     font-family: Lato;
-    font-size: 40px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
 
 }
 .section-text{
-    font-size: 20px;
+    font-size: 18px;
     width: 50%;
     margin: auto;
 }
@@ -121,5 +124,25 @@
     justify-content: space-around;
     align-items: center;
     text-align: center;
+}
 
+.hotdeal-container{
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 130px;
+    padding-right: 130px;
+    height: 100vh;
+}
+
+.hotdeal-container{
+    border-radius: 8px;
+    background-color: rgba(229, 84, 115, 0.05);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
