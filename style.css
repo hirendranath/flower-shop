@@ -58,7 +58,6 @@ nav{
    
 }
 .btn{
-    
     background-color:#E55473;
     border: none;
     border-radius: 5px;
@@ -176,4 +175,35 @@ nav{
   justify-content: center;
   align-items: center;
   gap: 15px;
+}
+
+/* Get The Latest Deals section start here  */
+.latest-deals-container{
+    background-image: url("images/Rectangle9.png");
+    border-radius: 8px;
+    margin-top: 100px;
+    background-repeat: no-repeat;
+}
+.latest-deals{
+    padding: 30px;
+}
+.email-subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.email-box{
+    background-color:#ffffff;
+    border: none;
+    border-radius: 5px;
+    font-family: Lato;
+    font-size: 20px; 
+    font-weight: 700;
+    color: #fff;
+    padding: 15px 30px;
+}
+.email-box>input{
+    border: none;
+    width: 500px;
 }
