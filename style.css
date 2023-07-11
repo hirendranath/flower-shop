@@ -24,7 +24,12 @@ nav{
     gap: 25px;
     align-items: center;
 }
-
+.menus>ol>li{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    color: red;
+}
 /* banner styles here  */
 .banner-container{
     background: rgba(229, 84, 115, 0.10);
@@ -110,15 +115,15 @@ nav{
     height: 100px;
 }
 .item-text{
-    text-align: center;
     margin-top: 20px;
+    font-family: Lato;
     color: #272727;
     text-align: center;
-    font-family: Lato;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 35px;
+    text-decoration-line: underline;
 
 }
 .item1{
@@ -167,7 +172,9 @@ nav{
     justify-self:center;
     padding: 50px 70px;
 }
-
+.delivery-img{
+    padding: 20px;
+}
 /* new section for hot deal section  */
 .hotdeal-container{
     background: rgba(229, 84, 115, 0.10);
@@ -225,6 +232,17 @@ nav{
     border: none;
     width: 500px;
 }
+.selling-container{
+    background-color: #2727270D;
+    padding:15px;
+}
+.selling-point{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    text-align: center;
+  }
 
 /* footer styles start here  */
 footer{
