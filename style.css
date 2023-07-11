@@ -207,3 +207,29 @@ nav{
     border: none;
     width: 500px;
 }
+
+/* footer styles start here  */
+footer{
+    background-color: #111010;
+    padding: 130px 0px;
+    margin-top: 100px;
+}
+.footer-title{
+    font-size: 70px;
+    color: white;
+    font-weight: 800;
+    text-align: center;
+}
+.footer-text{
+    font-size: 18px;
+    margin: auto;
+    padding: 40px 40px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    width: 50%;
+}
+.copy-rights-text{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.40);
+}
